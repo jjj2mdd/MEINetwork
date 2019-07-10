@@ -1,0 +1,39 @@
+PODS:
+  - Alamofire (4.8.2)
+  - MEINetwork (0.1.0):
+    - MEINetwork/Core (= 0.1.0)
+  - MEINetwork/Core (0.1.0):
+    - Moya
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Result (4.1.0)
+  - UICKeyChainStore (2.1.2)
+
+DEPENDENCIES:
+  - MEINetwork (from `../`)
+  - UICKeyChainStore
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Moya
+    - Result
+    - UICKeyChainStore
+
+EXTERNAL SOURCES:
+  MEINetwork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  MEINetwork: d913aaa469387c49a0531bf31b0e5eac316d0ab0
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  UICKeyChainStore: 85db518bb1d294366d15ec9b92a416c4e670518f
+
+PODFILE CHECKSUM: fe765afcdf962809a7d4a4a7a13282da561ac415
+
+COCOAPODS: 1.7.1

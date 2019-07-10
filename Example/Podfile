@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, 10.0
+use_frameworks!
+
+target 'MEINetwork_Example' do
+  pod 'MEINetwork', :path => '../'
+  pod 'UICKeyChainStore'
+
+  target 'MEINetwork_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
